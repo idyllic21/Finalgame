@@ -1,0 +1,78 @@
+html, body
+{
+  
+  height: 98%;
+  width: 98%;
+
+}
+
+body {
+    background-image: url("../images/escheresque.png");
+    background-repeat: repeat;
+}
+
+
+h3 {color:black;
+  font-size: 40px;
+  user-select: none;
+  text-align: center;
+}
+
+
+#mySVGCanvas {
+  position: relative;  
+  border: 1px solid black;
+  outline: black thick;
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  background-color: black;
+}
+
+/* Progress bar CSS code found here: https://css-tricks.com/html5-progress-element/*/ 
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+  width: 900px;
+  height: 25px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+     -webkit-linear-gradient(-45deg, 
+                             transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                             rgba(0,0, 0, .1) 66%, transparent 66%),
+     -webkit-linear-gradient(top, 
+                             rgba(255, 255, 255, .25), 
+                             rgba(0, 0, 0, .25)),
+     -webkit-linear-gradient(left, #f44, #09c);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+#buttonone{ 
+            background-color: #F49E5E;
+            border: 4px solid white;
+            padding: 15px;
+}
+
+
+#buttonone:hover {
+  background-image: url(http://previews.123rf.com/images/vasvas/vasvas1406/vasvas140600087/29341892-Chevron-watercolor-blue-Background-Hand-Painted-Chevron-Background-Zigzag-background--Stock-Vector.jpg);
+} 
+
+#buttontwo:hover {
+  background-image: url(http://content.mycutegraphics.com/backgrounds/stripes/fun-diagonal-striped-background.gif);
+} 
+
+
+#buttontwo{ 
+            background-color: #F49E5E;
+            border: 4px solid white;
+            padding: 15px;
+}
+
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=42279), progress !important;} /* http://www.rw-designer.com/cursor-set/crosshair-1
