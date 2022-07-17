@@ -8,6 +8,7 @@ require(
         ["../jslibs/raphael.lonce"],  // include a custom-built library
 
     function () {
+        console.log("Updated Main");
 
         // grabs the div to put the Raphael paper
         var mySVGCanvas = document.getElementById("mySVGCanvas");
