@@ -14,9 +14,9 @@ require(
         
        console.log("Updated Main.JS v5");
        // var pWidth = paper.canvas.offsetWidth;
-        var pWidth = 200;
+        var pWidth = 750;
        // var pHeight = paper.canvas.offsetHeight;
-        var pHeight = 100;
+        var pHeight = 0;
         console.log("pWidth is " + pWidth + ", and pHeight is " + pHeight);
 
         var button = document.getElementById("buttonone"); //button to enable user to skip story line if watched before. 
