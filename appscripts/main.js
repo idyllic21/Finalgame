@@ -12,9 +12,12 @@ require(
         // grabs the div to put the Raphael paper
         var mySVGCanvas = document.getElementById("mySVGCanvas");
         var paper = new Raphael(mySVGCanvas);
-
-        var pWidth = paper.canvas.offsetWidth;
-        var pHeight = paper.canvas.offsetHeight;
+        
+       console.log("Updated Main.JS");
+      //  var pWidth = paper.canvas.offsetWidth;
+        var pWidth = 1;
+       // var pHeight = paper.canvas.offsetHeight;
+       var pHeight = 1;
         console.log("pWidth is " + pWidth + ", and pHeight is " + pHeight);
 
         var button = document.getElementById("buttonone"); //button to enable user to skip story line if watched before. 
