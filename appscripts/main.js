@@ -81,17 +81,17 @@ require(
         var stormsky = paper.image("images/stormsky.jpg", 0, 0, pWidth, pHeight);
         var helicopter = paper.image("images/helicopter.png", 20, 110, 480, 200);
         var lightning = paper.image("images/lightning.svg", 380, 100, 100, 110);
-        var nextRect = paper.image("images/nextbutton.png", 600, 400, 130, 50);
-        var nextRect2 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
-        var nextRect3 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
-        var nextRect4 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
-        var nextRect5 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
+        var nextRect = paper.image("images/nextbutton.png", 650, 300, 130, 50);
+        var nextRect2 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
+        var nextRect3 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
+        var nextRect4 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
+        var nextRect5 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
         var scene5BG = paper.rect(0, 0, pWidth, pHeight).attr({"fill":"black"}); //sets paper to black colour.
          var forest= paper.image("images/rainforest.jpg", 0, 0, pWidth, pHeight);
          var gameRect= paper.image("images/gameforest.jpg", 0, 0, pWidth, pHeight).attr({"opacity": 0.58});
     //     var gameFly = paper.image("images/fly.png", 100, 100, 100, 75);
-        var nextRect6 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
-        var nextRect7 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
+        var nextRect6 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
+        var nextRect7 = paper.image("images/nextbutton.png", 650, 300, 130, 50);
 
 
         //Hiding irrelevant images from the screen
