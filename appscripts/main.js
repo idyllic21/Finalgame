@@ -6,12 +6,11 @@ require(
     //     a) paper.put(relement) - to put an Element created by paper back on a paper after it has been removed
     //     b) call element.addEventListener(...) instead of element.node.addEventListner(...)
         ["../jslibs/raphael.lonce"],  // include a custom-built library
-        ["../jslibs/raphael"],
     function () {
 
         // grabs the div to put the Raphael paper
         var mySVGCanvas = document.getElementById("mySVGCanvas");
-        var paper = new Raphael(mySVGCanvas);
+        var paper = new Raphael(mySVGCanvas,500,300);
         
        console.log("Updated Main.JS");
         var pWidth = paper.canvas.offsetWidth;
