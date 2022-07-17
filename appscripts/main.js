@@ -6,7 +6,7 @@ require(
     //     a) paper.put(relement) - to put an Element created by paper back on a paper after it has been removed
     //     b) call element.addEventListener(...) instead of element.node.addEventListner(...)
         ["../jslibs/raphael.lonce"],  // include a custom-built library
-
+        ["../jslibs/raphael"],
     function () {
 
         // grabs the div to put the Raphael paper
@@ -14,10 +14,10 @@ require(
         var paper = new Raphael(mySVGCanvas);
         
        console.log("Updated Main.JS");
-      //  var pWidth = paper.canvas.offsetWidth;
-        var pWidth = 1;
-       // var pHeight = paper.canvas.offsetHeight;
-       var pHeight = 1;
+        var pWidth = paper.canvas.offsetWidth;
+      //  var pWidth = 1;
+        var pHeight = paper.canvas.offsetHeight;
+       // var pHeight = 1;
         console.log("pWidth is " + pWidth + ", and pHeight is " + pHeight);
 
         var button = document.getElementById("buttonone"); //button to enable user to skip story line if watched before. 
