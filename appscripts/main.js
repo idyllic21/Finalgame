@@ -81,7 +81,7 @@ require(
         var stormsky = paper.image("images/stormsky.jpg", 0, 0, pWidth, pHeight);
         var helicopter = paper.image("images/helicopter.png", 20, 110, 480, 200);
         var lightning = paper.image("images/lightning.svg", 380, 100, 100, 110);
-        var nextRect = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
+        var nextRect = paper.image("images/nextbutton.png", 600, 400, 130, 50);
         var nextRect2 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
         var nextRect3 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
         var nextRect4 = paper.image("images/nextbutton.png", pWidth-150, pHeight-90, 130, 50);
